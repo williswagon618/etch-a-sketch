@@ -1,0 +1,107 @@
+#container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 95%;
+  height: 95%;
+  margin: 0 auto;
+  border: solid 40px;
+  border-top: solid 60px;
+  border-bottom: solid 80px;
+  border-color: red;
+  border-radius: 2%;
+}
+
+.colClass {
+  display: inline-block;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 1 0;
+  height: 600px;
+}
+
+.rowClass {
+  flex-wrap: wrap;
+  flex: 0 0;
+  margin: auto;
+  background-color: lightgray;
+}
+
+@media only screen and (max-width: 600px) {
+  .rowClass {
+    display: block;
+    width: 100%;
+  }
+}
+
+.color {
+  background-color: darkslategray;
+}
+
+h1 {
+  padding: 0;
+  margin-bottom: 5px;
+}
+
+button {
+  float:right;
+  margin-top: -35px;
+  margin-right: 35px;
+  width: 200px;
+  background-color: lightgray;
+}
+
+#LHcircle {
+  background-color: white;
+  margin-top: -95px;
+  margin-left: 20px;
+  border-radius: 50%;
+  height: 85px;
+  width: 85px;
+  position: absolute;
+}
+
+#RHcircle {
+  background-color: white;
+  margin-top: -95px;
+  margin-right: 20px;
+  border-radius: 50%;
+  height: 85px;
+  width: 85px;
+  position: relative;
+  float: right;
+}
+
+.eas {
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.etch {
+  margin-top: -35px;
+}
+
+.topText {
+  display: flex;
+  margin-bottom: -85px;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+.topText h3 {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  color: gold;
+  font-size: 20px;
+}
+
+.topText h2 {
+  margin-top: 40px;
+  color: gold;
+  font-family: 'Eagle Lake', cursive;
+  font-size: 30px;
+}
+
+
+
