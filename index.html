@@ -9,20 +9,31 @@
   
 <body>
   <span>
+    <div id="mainframe">
     <h1>Project Etch-A-Sketch</h1>
-    <div id="button">
-      <button>Shake! (Reset)</button>
+    <div id="buttons">
+      <button id="reset">Shake! (Reset)</button>
     </div>
-    <div class="etch">
-      <div class="topText">
-        <h3 id="magic">MAGIC</h2>
-        <h2 id="eas">Etch A Sketch</h2>
-        <h3 id="screen">SCREEN</h3>
+      <div class="etch">
+        <div class="topText">
+          <h3 id="magic">MAGIC</h2>
+          <h2 id="eas">Etch A Sketch</h2>
+          <h3 id="screen">SCREEN</h3>
+        </div>
       </div>
+        <div id="container"></div>
+        <div id="LHcircle"></div>
+        <div id="RHcircle"></div>
+        <div id="colorSlider">
+          <h4>Gray</h4>
+          <label class="switch">
+            <input id="slid" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+          <h4>Color!</h4>
+        </div>
     </div>
-      <div id="container"></div>
-      <div id="LHcircle"></div>
-      <div id="RHcircle"></div>
+  
     <script src="script.js"></script>
   </span>
 </body>
